@@ -3,7 +3,7 @@
 # Initially based upon:
 # https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md#running-puppeteer-in-docker
 
-FROM node:12.18.0-buster-slim@sha256:97da8d5023fd0380ed923d13f83041dd60b0744e4d140f6276c93096e85d0899
+FROM node:12.18.2-buster-slim@sha256:72307bf0dabd06372c9c0392511a535161474339b08a9b223cdc055de526a5e8
     
 RUN  apt-get update \
      && apt-get install -y wget gnupg ca-certificates \
